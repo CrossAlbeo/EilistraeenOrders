@@ -352,5 +352,106 @@
                 "Once you use this feature, you cannot use it anymore until you finish a long rest."
             ]
         }
+    ],
+    "spell": [
+		{
+			"name": "Brainstorm",
+			"source": "EilistraeenOrders",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+                    "amount": "100"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+                "m": "a white handkerchief"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromSubClass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Silverhair Knight",
+							"source": "EilistraeenOrders"
+						}
+					}
+				]
+			},
+			"entries": [
+				"You create a ribbon of glowing, silvery, translucent force, that connects two spots in a straight path. It's up to 150ft long, from 3 to 20 ft wide (you may change the width over the path's length), and 1/4 inch thick. Its starting and ending points can be located anywhere (including midair), and the surface of the ribbon can be oriented as the caster wishes (it can be positioned as a bridge or as a wall, for example). When you cast Moon Path, you choose up to 10 creatures to be protected while standing on the ribbon, granting them the effects of the Sanctuary and Spider Climb spells for the duration of the Moon Path (these boons are lost as soon as the path is left). The surface of the ribbon cannot be physically crossed, and blocks spells, breath attacks (like that of a dragon), gaze effects (such as that of a Medusa) and ethereal travel. ",
+                "A Disintegrate spell blasts a 10ft wide hole in the path, and the touch of a Sphere of Annihilation destroys it. Unlike a Wall of Force, this spell is normally affected by Dispel Magic."
+			],
+            "entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 6th level slot or higher, its maximum length is increased by 30ft and the number of affected creatures by 2 for each level above 5th."
+					]
+				}
+			],
+		}
+	],
+    "feat": [
+		{
+            "name": "Wardancer",
+            "source": "EO",
+            "page": 15,
+            "prerequisite": [
+                {
+                    "skill": "performance"
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "longsword": true
+                }
+            ],
+            "entries": [
+                "Your training in dancing gracefully has improved your reflexes and the fluidity of your movements, making you harder to hit in combat. You must be proficient in the Performance skill in order to take this feat",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency with longswords, and treat them as finesse weapons.",
+                        "When you are hit by a weapon or spell attack, while wearing up to light armor and not using a shield, you can use your reaction to add your Charisma modifier to your AC against that attack, potentially causing it to miss."
+                    ]
+                }
+            ]
+        }
+	],
+    "optionalfeature": [
+		{
+			"name": "Battle Dance",
+			"source": "EO",
+			"page": 15,
+			"featureType": [
+				"FS:F",
+				"FS:B",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"When not wearing heavy armor and not using a shield, your armor class increases by 1. When wielding a single light, one-handed, or versatile weapon and no other weapons, you gain a +1 bonus to damage rolls with that weapon."
+            ]
+        }
     ]
 }
