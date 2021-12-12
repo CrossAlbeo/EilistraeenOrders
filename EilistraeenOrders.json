@@ -8,13 +8,13 @@
                 "authors":[
                     "CrossAlbeo"
                 ],
-                "version":"0.2",
+                "version":"0.4",
                 "url":"https://www.dmsguild.com/product/176361/The-Dark-Maiden-beckons-On-the-drow-goddess-Eilistraee-and-her-Faith",
                 "targetSchema":"1.0.0"
             }
         ],
-        "dateAdded":1638955013,
-        "dateLastModified":1639000137
+        "dateAdded": 1638955013,
+        "dateLastModified": 1639348459
     },
     "subclass":[
         {
@@ -40,7 +40,7 @@
                 "dimension door",
                 "locate creature",
                 "commune",
-                "moon path|EO"
+                "moon path|eilistraeenorders"
             ],
             "additionalSpells":[
                 {
@@ -63,7 +63,7 @@
                         ],
                         "17":[
                             "commune",
-                            "moon path|ESK"
+                            "moon path|eilistraeenorders"
                         ]
                     }
                 }
@@ -239,7 +239,7 @@
                         ],
                         [
                             "17th",
-                            "{@spell Commune}, {@spell Moon Path|eo}"
+                            "{@spell Commune}, {@spell Moon Path|eilistraeenorders}"
                         ]
                     ]
                 }
@@ -354,65 +354,187 @@
         }
     ],
     "spell": [
-		{
-			"name": "Brainstorm",
-			"source": "EilistraeenOrders",
-			"level": 1,
-			"school": "E",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "line",
-				"distance": {
-					"type": "feet",
+        {
+            "name": "Moon Path",
+            "source": "EilistraeenOrders",
+            "level": 5,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "line",
+                "distance": {
+                    "type": "feet",
                     "amount": "100"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
                 "m": "a white handkerchief"
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromSubClass": [
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Silverhair Knight",
-							"source": "EilistraeenOrders"
-						}
-					}
-				]
-			},
-			"entries": [
-				"You create a ribbon of glowing, silvery, translucent force, that connects two spots in a straight path. It's up to 150ft long, from 3 to 20 ft wide (you may change the width over the path's length), and 1/4 inch thick. Its starting and ending points can be located anywhere (including midair), and the surface of the ribbon can be oriented as the caster wishes (it can be positioned as a bridge or as a wall, for example). When you cast Moon Path, you choose up to 10 creatures to be protected while standing on the ribbon, granting them the effects of the Sanctuary and Spider Climb spells for the duration of the Moon Path (these boons are lost as soon as the path is left). The surface of the ribbon cannot be physically crossed, and blocks spells, breath attacks (like that of a dragon), gaze effects (such as that of a Medusa) and ethereal travel. ",
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromSubClass": [
+                    {
+                        "class": {
+                            "name": "Paladin",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Silverhair Knight",
+                            "source": "EilistraeenOrders"
+                        }
+                    }
+                ]
+            },
+            "entries": [
+                "You create a ribbon of glowing, silvery, translucent force, that connects two spots in a straight path. It's up to 150ft long, from 3 to 20 ft wide (you may change the width over the path's length), and 1/4 inch thick. Its starting and ending points can be located anywhere (including midair), and the surface of the ribbon can be oriented as the caster wishes (it can be positioned as a bridge or as a wall, for example). When you cast Moon Path, you choose up to 10 creatures to be protected while standing on the ribbon, granting them the effects of the Sanctuary and Spider Climb spells for the duration of the Moon Path (these boons are lost as soon as the path is left). The surface of the ribbon cannot be physically crossed, and blocks spells, breath attacks (like that of a dragon), gaze effects (such as that of a Medusa) and ethereal travel. ",
                 "A Disintegrate spell blasts a 10ft wide hole in the path, and the touch of a Sphere of Annihilation destroys it. Unlike a Wall of Force, this spell is normally affected by Dispel Magic."
-			],
+            ],
             "entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "At Higher Levels",
-					"entries": [
-						"When you cast this spell using a 6th level slot or higher, its maximum length is increased by 30ft and the number of affected creatures by 2 for each level above 5th."
-					]
-				}
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a 6th level slot or higher, its maximum length is increased by 30ft and the number of affected creatures by 2 for each level above 5th."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eilistraee's Moonfire",
+            "source": "EilistraeenOrders",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "unit": "minute",
+                        "number": "10"
+                    }
+                }
+            ],
+            "classes": {
+                "fromSubClass": [
+                    {
+                        "class": {
+                            "name": "Paladin",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Silverhair Knight",
+                            "source": "EilistraeenOrders"
+                        }
+                    }
+                ]
+            },
+            "entries": [
+                "This spell creates a globe of moonlight of up to 10 cubic feet, that moves about the caster's body. It provides bright light in a 10 feet radius, and dim light for an additional 10 feet. The caster may choose to reduce the intensity, making the globe shed only dim light in 10 feet radius. The color of the globe and of the light can be white, silver, bluewhite and soft green. Each round, as a bonus action, the caster may command the Moonfire to move around her body at any desired speed, or to move away from her, drifting up to 40 feet. As a part of the action, the shape of the globe can be changed to make it pass through openings of any size.",
+                "As an action, you can turn the globe into a small comet of cold moonlight (ending the spell), and hurl it at a creature within 30 ft from you. Make an attack roll: on a success, the target takes 1d8 cold damage (2d8 at level 5th; 3d8 at 11th; 4d8 at 17th).",
+                "This cantrip can be cast using a 2nd level slot. If you so choose, this spell and the Darkness spell cancel each other out."
+            ],
+            "damageInflict": [
+				"cold"
 			],
-		}
-	],
+            "spellAttack": [
+				"R"
+			],
+            "scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			}
+        },
+        {
+            "name": "Spellsong : Hope",
+            "source": "EilistraeenOrders",
+            "level": 4,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "unit": "minute",
+                        "number": "1"
+                    },
+                    "concentration": true
+                }
+            ],
+            "classes": {
+                "fromSubClass": [
+                    {
+                        "class": {
+                            "name": "Paladin",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Silverhair Knight",
+                            "source": "EilistraeenOrders"
+                        }
+                    }
+                ]
+            },
+            "entries": [
+                "The Sword Dancers are trained to use their music and dance to call upon Eilistraee's power. They can sing their magic even in the heat of the battle, while dodging and dancing, or while wounded. Their art resonates with the intimate rhythm of life and of the Multiverse, and is able to close wounds, inspire great feats, create untold beauty, or save allies from the cold grip of death.",
+                "Your song inspires a number of creatures up to your Charisma modifer that can hear you, within 30 ft from you. You can choose one of the two following effects :",
+                {
+                    "type": "list",
+                    "items": [
+                        "They can add your Charisma modifier to all saving throws against the Charmed and Frightened conditions, to all attack rolls and ability checks. The spell lasts up to 1 minute, and requires concentration.",
+                        "It removes all effects causing the Charmed and Frightened conditions, and all effects that cause despair, confusion or insanity in a creature (such as the {@spell Confusion} and the {@spell Symbol}: Hopelessness, Insanity spells)."
+                    ]
+                }
+            ]
+        }
+    ],
     "feat": [
-		{
+        {
             "name": "Wardancer",
             "source": "EO",
             "page": 15,
@@ -437,20 +559,20 @@
                 }
             ]
         }
-	],
+    ],
     "optionalfeature": [
-		{
-			"name": "Battle Dance",
-			"source": "EO",
-			"page": 15,
-			"featureType": [
-				"FS:F",
-				"FS:B",
-				"FS:P",
-				"FS:R"
-			],
-			"entries": [
-				"When not wearing heavy armor and not using a shield, your armor class increases by 1. When wielding a single light, one-handed, or versatile weapon and no other weapons, you gain a +1 bonus to damage rolls with that weapon."
+        {
+            "name": "Battle Dance",
+            "source": "EO",
+            "page": 15,
+            "featureType": [
+                "FS:F",
+                "FS:B",
+                "FS:P",
+                "FS:R"
+            ],
+            "entries": [
+                "When not wearing heavy armor and not using a shield, your armor class increases by 1. When wielding a single light, one-handed, or versatile weapon and no other weapons, you gain a +1 bonus to damage rolls with that weapon."
             ]
         }
     ]
