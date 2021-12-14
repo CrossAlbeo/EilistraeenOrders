@@ -1,471 +1,475 @@
 {
-    "_meta":{
-        "sources":[
-            {
-                "json":"EilistraeenOrders",
-                "abbreviation":"EO",
-                "full":"Eilistraeen Orders",
-                "authors":[
-                    "CrossAlbeo"
-                ],
-                "version":"0.4",
-                "url":"https://www.dmsguild.com/product/176361/The-Dark-Maiden-beckons-On-the-drow-goddess-Eilistraee-and-her-Faith",
-                "targetSchema":"1.0.0"
-            }
-        ],
-        "dateAdded": 1638955013,
-        "dateLastModified": 1639348459
-    },
-    "subclass":[
-        {
-            "name":"Eilistraee's Silverhair Knight",
-            "subclassFeatures":[
-                "Oath of the Silverhair Knights|Paladin||Silverhair Knight|EilistraeenOrders|3",
-                "Tenets of the Silverhair Knights|Paladin||Silverhair Knight|EilistraeenOrders|3",
-                "Oath Spells|Paladin||Silverhair Knight|EilistraeenOrders|3",
-                "Sin Eaters|Paladin||Silverhair Knight|EilistraeenOrders|7",
-                "Aura of the Guardian|Paladin||Silverhair Knight|EilistraeenOrders|7",
-                "Dance of Freedom|Paladin||Silverhair Knight|EilistraeenOrders|15",
-                "Lady's Embrace|Paladin||Silverhair Knight|EilistraeenOrders|20"
-            ],
-            "source":"EilistraeenOrders",
-            "shortName":"Silverhair Knight",
-            "subclassSpells":[
-                "sanctuary",
-                "zephyr strike|xge",
-                "warding bond",
-                "calm emotions",
-                "beacon of hope",
-                "create food and water",
-                "dimension door",
-                "locate creature",
-                "commune",
-                "moon path|eilistraeenorders"
-            ],
-            "additionalSpells":[
-                {
-                    "prepared":{
-                        "3":[
-                            "sanctuary",
-                            "zephyr strike|xge"
-                        ],
-                        "5":[
-                            "warding bond",
-                            "calm emotions"
-                        ],
-                        "9":[
-                            "beacon of hope",
-                            "create food and water"
-                        ],
-                        "13":[
-                            "dimension door",
-                            "locate creature"
-                        ],
-                        "17":[
-                            "commune",
-                            "moon path|eilistraeenorders"
-                        ]
-                    }
-                }
-            ],
-            "className":"Paladin",
-            "classSource":"PHB"
-        }
-    ],
-    "subclassFeature":[
-        {
-            "name":"Eilistraee's Silverhair Knight",
-            "source":"EilistraeenOrders",
-            "page":11,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":3,
-            "entries":[
-                "The Silverhair Knights are an order of faithful of Eilistraee entirely dedicated to saving and redeeming the drow.",
-                {
-                    "type":"refSubclassFeature",
-                    "subclassFeature":"Tenets of the Silverhair Knights|Paladin||Silverhair Knight|EilistraeenOrders|3"
-                },
-                {
-                    "type":"refSubclassFeature",
-                    "subclassFeature":"Oath Spells|Paladin||Silverhair Knight|EilistraeenOrders|3"
-                },
-                {
-                    "type":"refSubclassFeature",
-                    "subclassFeature":"Channel Divinity: Eilistraee's Dance|Paladin||Silverhair Knight|EilistraeenOrders|3"
-                },
-                {
-                    "type":"refSubclassFeature",
-                    "subclassFeature":"Channel Divinity: Emissary of Peace|Paladin||Silverhair Knight|EilistraeenOrders|3"
-                }
-            ]
-        },
-        {
-            "name":"Oath of the Silverhair Knights",
-            "entries":[
-                "The Silverhair Knights are an order of faithful of Eilistraee entirely dedicated to saving and redeeming the drow. Like the Darksong Knights, they embrace all Eilistraee's teachings, but focus on those regarding mercy and compassion. They take an oath to never willingly kill those who can be redeemed (all free-willed creatures), especially the drow, and regularly embark on missions to reach to their kin in the Underdark, and bring them to the light.",
-                "The Silverhair Knights infiltrate in Lolthite settlements, and spend time carefully studying and observing, in order to find dark elves who need their help, who are growing resented or dissatisfied, or that are in life-or-death situations.",
-                "These paladins approach the potential converts with caution, by taking many careful steps to make them feel as safe and comfortable as possible, and offer them the path to a life free of the endless strife and paranoia imposed by Lolth. The Silverhair Knights personally escort the drow to safety, and constantly offer their protection to all followers of Eilistraee, especially the new converts, in order to show that the life that the goddess wishes for her children is not a fairy tale, but a concrete possibility.",
-                "Silverhair Knights can use lethal means in specific situations, but only if doing so means saving more lives. Even then, a quest for atonement is needed, given by clerics of Eilistraee. After the Second Sundering, Eilistraee herself often chooses to personally provide direct guidance to the Silverhair Knights."
-            ],
-            "source":"EilistraeenOrders",
-            "page":11,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":3,
-            "header":1
-        },
-        {
-            "name":"Tenets of the Silverhair Knights",
-            "entries":[
-                "This order is home to paladins who take the Oath of Redemption, or a variation tailored to reflect Eilistraee's teachings.",
-                {
-                    "type":"entries",
-                    "entries":[
-                        {
-                            "type":"entries",
-                            "name":"Kindle the light",
-                            "entries":[
-                                "Even in the deepest despair, when all seems lost, hope can still be found in all that is beautiful in life. Fight to protect that light, and bring it to all those who are lost in the dark."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type":"entries",
-                    "entries":[
-                        {
-                            "type":"entries",
-                            "name":"Break the chains",
-                            "entries":[
-                                "Everyone should be free to choose what to be, their faith, to express themselves and forge their own path in life. Relentlessly oppose all those who would deny this right, tyrants and fearmongers alike."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type":"entries",
-                    "entries":[
-                        {
-                            "type":"entries",
-                            "name":"Nurture all beauty",
-                            "entries":[
-                                "Life is meant to be celebrated and enjoyed; live yours as art, and spark wonder and passion wherever you go. Music and dance are to be spread, bringing joy and laughter to people, so that no moment is lost in the greyness of bore and melancholy. Remember that beauty can be found in the broken: treasure and nurture it, to make it bloom once again."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type":"entries",
-                    "entries":[
-                        {
-                            "type":"entries",
-                            "name":"Offer kindness",
-                            "entries":[
-                                "Aid all folks in need, of any race, strong and weak, kind and rude alike, no matter the personal cost. Only through empathy and compassion suffering can be defeated."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type":"entries",
-                    "entries":[
-                        {
-                            "type":"entries",
-                            "name":"A rebirth for the Drow",
-                            "entries":[
-                                "All drow must be freed by the poison of the Spider Queen. Reach for the dark elves who suffer in her web and offer them a new beginning."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type":"entries",
-                    "entries":[
-                        {
-                            "type":"entries",
-                            "name":"Mercy",
-                            "entries":[
-                                "Evil isn't a monster that can be slain with the simple blade. The sword provides a needed protection, but evil is often the consequence of the pain harbored in the hearts of the people; the only way to truly defeat it passes through understanding, and healing. Never kill those who can be redeemed. There's strength in letting a life bloom and rise from their evil, because untold beauty can stem from an awakened soul."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "source":"EilistraeenOrders",
-            "page":11,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":3,
-            "header":2
-        },
-        {
-            "name":"Oath Spells",
-            "entries":[
-                "You gain oath spells at the paladin levels listed.",
-                {
-                    "type":"table",
-                    "caption":"Silverhair Knights Spells",
-                    "colLabels":[
-                        "Paladin Level",
-                        "Spells"
-                    ],
-                    "colStyles":[
-                        "col-3 text-center",
-                        "col-9"
-                    ],
-                    "rows":[
-                        [
-                            "3rd",
-                            "{@spell Sanctuary}, {@spell Zephyr Strike|xge}"
-                        ],
-                        [
-                            "5th",
-                            "{@spell Warding bond}, {@spell Calm Emotions}"
-                        ],
-                        [
-                            "9th",
-                            "{@spell Beacon of Hope}, {@spell Create Food and Water}"
-                        ],
-                        [
-                            "13th",
-                            "{@spell Dimension Door}, {@spell Locate Creature}"
-                        ],
-                        [
-                            "17th",
-                            "{@spell Commune}, {@spell Moon Path|eilistraeenorders}"
-                        ]
-                    ]
-                }
-            ],
-            "source":"EilistraeenOrders",
-            "page":11,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":3,
-            "header":2
-        },
-        {
-            "name":"Channel Divinity: Eilistraee's Dance",
-            "entries":[
-                "You let the faith in your ideals and your goddess guide your steps. Following the Song, you become animated by burning determination. All chains and restraints are broken, and you effortlessly dance past any and all obstacles on your path.",
-                "As an action, until the end of your next turn, you gain the effect of the Freedom of Movement spell and the benefits of the Dodge action. Your melee weapon attacks deal additional radiant damage equal to your Charisma modifier, and once during this time, you may make a melee weapon attack as a bonus action. In addition to this, you gain advantage on all Charisma (Performance) checks for 1 minute."
-            ],
-            "source":"EilistraeenOrders",
-            "page":10,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":3,
-            "header":1
-        },
-        {
-            "name":"Channel Divinity: Emissary of Peace",
-            "entries":[
-                "As a bonus action, you grant yourself a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes."
-            ],
-            "source":"EilistraeenOrders",
-            "page":11,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":3,
-            "header":1
-        },
-        {
-            "name":"Sin Eaters",
-            "entries":[
-                "Powerful Silverhair Knights had the ability to \"consume sins\", to take the full weight of cruelty and suffering inflicted by evil beings'  (mostly fey, humanoids, monstrous humanoids, and giants, but especially drow) upon themselves, which gave the Silverhair Knights their nickname: sin eaters.",
-                "The Silverhair Knight must keep physical contact with the creature that they want to redeem for 10 minutes. If the creature is unwilling, they can fight the ritual in a battle of willpower, a Wisdom saving throw against the Silverhair Knight spell save DC.",
-                "If the Silverhair Knight is successful, the creature feels theweight of all the suffering that they have inflicted in their life; the shockof the realization is so powerful that the creature will hardly go back totheir evil ways. If the Silverhair Knight is not successful, the weight of allthat pain is inflicted on their own being, draining their vitality andmaking them fall into a coma for one day (it drains 1d4 points of constitution, which can be recovered through a Greater Restoration spell).",
-                "This ritual can be attempted once per week, and can only beperformed on the same creature once per year. If the paladin diesduring the ritual, they rise as a ghost with the same behavior as thecreature that they tried to redeem."
-            ],
-            "source":"EilistraeenOrders",
-            "page":11,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":7,
-            "header":2
-        },
-        {
-            "name":"Aura of the Guardian",
-            "source":"EilistraeenOrders",
-            "page":11,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":7,
-            "header":2,
-            "entries":[
-                "Starting at 7th level, when a creature within 10 feet of you takes damage, you can use your reaction to magically take that damage, instead of that creature taking it. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way.",
-                "At 18th level, the range of this aura increases to 30 feet."
-            ]
-        },
-        {
-            "name":"Dance of Freedom",
-            "source":"EilistraeenOrders",
-            "page":10,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":15,
-            "header":2,
-            "entries":[
-                "As the Lady's song fills your heart, her hand leads you unharmed through danger",
-                "Beginning at 15th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. If you do succeed at the saving throw and are not wearing heavy armor, you may choose to use your reaction to move up to half your speed. This movement does not provoke attacks of opportunity."
-            ]
-        },
-        {
-            "name":"Lady's Embrace",
-            "source":"EilistraeenOrders",
-            "page":10,
-            "className":"Paladin",
-            "classSource":"PHB",
-            "subclassShortName":"Silverhair Knight",
-            "subclassSource":"EilistraeenOrders",
-            "level":20,
-            "header":2,
-            "entries":[
-                "Through your faith and dedication to the cause, you have become a conduit for the light of Eilistraee herself. A radiant aura of unearthly beauty surrounds you, and mesmerizing grace cloaks your every step and gesture. Your hair becomes long, dancing threads of silvery light, your irises softly shine like rainbow moonstones, and your voice becomes a sweet and soothing melody. Wings of moonlight sprout from your back, enveloping you and your friends in a protecting embrace, as your bodies and spirits are warmed by the vibrant love of the Dark Maiden.",
-                {
-                    "type":"list",
-                    "items":[
-                        "At the beginning of each of your turns, you regain 10 hit points, and other creatures that you choose within the light regain 5 hit points, up to a number of creatures equal to your Charisma modifier.",
-                        "If a creature within the light hits you with an attack, it takes radiant damage equal to your Charisma modifier",
-                        "You gain Advantage on saving throws against fiends."
-                    ]
-                },
-                "Once you use this feature, you cannot use it anymore until you finish a long rest."
-            ]
-        }
-    ],
-    "spell": [
-        {
-            "name": "Moon Path",
-            "source": "EilistraeenOrders",
-            "level": 5,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "line",
-                "distance": {
-                    "type": "feet",
-                    "amount": "100"
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a white handkerchief"
-            },
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "classes": {
-                "fromSubClass": [
-                    {
-                        "class": {
-                            "name": "Paladin",
-                            "source": "PHB"
-                        },
-                        "subclass": {
-                            "name": "Silverhair Knight",
-                            "source": "EilistraeenOrders"
-                        }
-                    }
-                ]
-            },
-            "entries": [
-                "You create a ribbon of glowing, silvery, translucent force, that connects two spots in a straight path. It's up to 150ft long, from 3 to 20 ft wide (you may change the width over the path's length), and 1/4 inch thick. Its starting and ending points can be located anywhere (including midair), and the surface of the ribbon can be oriented as the caster wishes (it can be positioned as a bridge or as a wall, for example). When you cast Moon Path, you choose up to 10 creatures to be protected while standing on the ribbon, granting them the effects of the Sanctuary and Spider Climb spells for the duration of the Moon Path (these boons are lost as soon as the path is left). The surface of the ribbon cannot be physically crossed, and blocks spells, breath attacks (like that of a dragon), gaze effects (such as that of a Medusa) and ethereal travel. ",
-                "A Disintegrate spell blasts a 10ft wide hole in the path, and the touch of a Sphere of Annihilation destroys it. Unlike a Wall of Force, this spell is normally affected by Dispel Magic."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a 6th level slot or higher, its maximum length is increased by 30ft and the number of affected creatures by 2 for each level above 5th."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Eilistraee's Moonfire",
-            "source": "EilistraeenOrders",
-            "level": 0,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "self"
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "unit": "minute",
-                        "number": "10"
-                    }
-                }
-            ],
-            "classes": {
-                "fromSubClass": [
-                    {
-                        "class": {
-                            "name": "Paladin",
-                            "source": "PHB"
-                        },
-                        "subclass": {
-                            "name": "Silverhair Knight",
-                            "source": "EilistraeenOrders"
-                        }
-                    }
-                ]
-            },
-            "entries": [
-                "This spell creates a globe of moonlight of up to 10 cubic feet, that moves about the caster's body. It provides bright light in a 10 feet radius, and dim light for an additional 10 feet. The caster may choose to reduce the intensity, making the globe shed only dim light in 10 feet radius. The color of the globe and of the light can be white, silver, bluewhite and soft green. Each round, as a bonus action, the caster may command the Moonfire to move around her body at any desired speed, or to move away from her, drifting up to 40 feet. As a part of the action, the shape of the globe can be changed to make it pass through openings of any size.",
-                "As an action, you can turn the globe into a small comet of cold moonlight (ending the spell), and hurl it at a creature within 30 ft from you. Make an attack roll: on a success, the target takes 1d8 cold damage (2d8 at level 5th; 3d8 at 11th; 4d8 at 17th).",
-                "This cantrip can be cast using a 2nd level slot. If you so choose, this spell and the Darkness spell cancel each other out."
-            ],
-            "damageInflict": [
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta":{
+		"sources":[
+			{
+				"json":"EilistraeenOrders",
+				"abbreviation":"EO",
+				"full":"Eilistraeen Orders",
+				"authors":[
+					"Tommaso Sammarco"
+				],
+				"version":"0.5",
+				"url":"https://www.dmsguild.com/product/176361/The-Dark-Maiden-beckons-On-the-drow-goddess-Eilistraee-and-her-Faith",
+				"targetSchema":"1.0.0",
+				"convertedBy": [
+					"CrossAlbeo"
+				]
+			}
+		],
+		"dateAdded": 1638955013,
+		"dateLastModified": 1639518873
+	},
+	"subclass":[
+		{
+			"name":"Eilistraee's Silverhair Knight",
+			"subclassFeatures":[
+				"Oath of the Silverhair Knights|Paladin||Silverhair Knight|EilistraeenOrders|3",
+				"Tenets of the Silverhair Knights|Paladin||Silverhair Knight|EilistraeenOrders|3",
+				"Oath Spells|Paladin||Silverhair Knight|EilistraeenOrders|3",
+				"Sin Eaters|Paladin||Silverhair Knight|EilistraeenOrders|7",
+				"Aura of the Guardian|Paladin||Silverhair Knight|EilistraeenOrders|7",
+				"Dance of Freedom|Paladin||Silverhair Knight|EilistraeenOrders|15",
+				"Lady's Embrace|Paladin||Silverhair Knight|EilistraeenOrders|20"
+			],
+			"source":"EilistraeenOrders",
+			"shortName":"Silverhair Knight",
+			"subclassSpells":[
+				"sanctuary",
+				"zephyr strike|xge",
+				"warding bond",
+				"calm emotions",
+				"beacon of hope",
+				"create food and water",
+				"dimension door",
+				"locate creature",
+				"commune",
+				"moon path|eilistraeenorders"
+			],
+			"additionalSpells":[
+				{
+					"prepared":{
+						"3":[
+							"sanctuary",
+							"zephyr strike|xge"
+						],
+						"5":[
+							"warding bond",
+							"calm emotions"
+						],
+						"9":[
+							"beacon of hope",
+							"create food and water"
+						],
+						"13":[
+							"dimension door",
+							"locate creature"
+						],
+						"17":[
+							"commune",
+							"moon path|eilistraeenorders"
+						]
+					}
+				}
+			],
+			"className":"Paladin",
+			"classSource":"PHB"
+		}
+	],
+	"subclassFeature":[
+		{
+			"name":"Eilistraee's Silverhair Knight",
+			"source":"EilistraeenOrders",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":3,
+			"entries":[
+				"The Silverhair Knights are an order of faithful of Eilistraee entirely dedicated to saving and redeeming the drow.",
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Tenets of the Silverhair Knights|Paladin||Silverhair Knight|EilistraeenOrders|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Oath Spells|Paladin||Silverhair Knight|EilistraeenOrders|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Channel Divinity: Eilistraee's Dance|Paladin||Silverhair Knight|EilistraeenOrders|3"
+				},
+				{
+					"type":"refSubclassFeature",
+					"subclassFeature":"Channel Divinity: Emissary of Peace|Paladin||Silverhair Knight|EilistraeenOrders|3"
+				}
+			]
+		},
+		{
+			"name":"Oath of the Silverhair Knights",
+			"entries":[
+				"The Silverhair Knights are an order of faithful of Eilistraee entirely dedicated to saving and redeeming the drow. Like the Darksong Knights, they embrace all Eilistraee's teachings, but focus on those regarding mercy and compassion. They take an oath to never willingly kill those who can be redeemed (all free-willed creatures), especially the drow, and regularly embark on missions to reach to their kin in the Underdark, and bring them to the light.",
+				"The Silverhair Knights infiltrate in Lolthite settlements, and spend time carefully studying and observing, in order to find dark elves who need their help, who are growing resented or dissatisfied, or that are in life-or-death situations.",
+				"These paladins approach the potential converts with caution, by taking many careful steps to make them feel as safe and comfortable as possible, and offer them the path to a life free of the endless strife and paranoia imposed by Lolth. The Silverhair Knights personally escort the drow to safety, and constantly offer their protection to all followers of Eilistraee, especially the new converts, in order to show that the life that the goddess wishes for her children is not a fairy tale, but a concrete possibility.",
+				"Silverhair Knights can use lethal means in specific situations, but only if doing so means saving more lives. Even then, a quest for atonement is needed, given by clerics of Eilistraee. After the Second Sundering, Eilistraee herself often chooses to personally provide direct guidance to the Silverhair Knights."
+			],
+			"source":"EilistraeenOrders",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":3,
+			"header":1
+		},
+		{
+			"name":"Tenets of the Silverhair Knights",
+			"entries":[
+				"This order is home to paladins who take the Oath of Redemption, or a variation tailored to reflect Eilistraee's teachings.",
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Kindle the light",
+							"entries":[
+								"Even in the deepest despair, when all seems lost, hope can still be found in all that is beautiful in life. Fight to protect that light, and bring it to all those who are lost in the dark."
+							]
+						}
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Break the chains",
+							"entries":[
+								"Everyone should be free to choose what to be, their faith, to express themselves and forge their own path in life. Relentlessly oppose all those who would deny this right, tyrants and fearmongers alike."
+							]
+						}
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Nurture all beauty",
+							"entries":[
+								"Life is meant to be celebrated and enjoyed; live yours as art, and spark wonder and passion wherever you go. Music and dance are to be spread, bringing joy and laughter to people, so that no moment is lost in the greyness of bore and melancholy. Remember that beauty can be found in the broken: treasure and nurture it, to make it bloom once again."
+							]
+						}
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Offer kindness",
+							"entries":[
+								"Aid all folks in need, of any race, strong and weak, kind and rude alike, no matter the personal cost. Only through empathy and compassion suffering can be defeated."
+							]
+						}
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"A rebirth for the Drow",
+							"entries":[
+								"All drow must be freed by the poison of the Spider Queen. Reach for the dark elves who suffer in her web and offer them a new beginning."
+							]
+						}
+					]
+				},
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Mercy",
+							"entries":[
+								"Evil isn't a monster that can be slain with the simple blade. The sword provides a needed protection, but evil is often the consequence of the pain harbored in the hearts of the people; the only way to truly defeat it passes through understanding, and healing. Never kill those who can be redeemed. There's strength in letting a life bloom and rise from their evil, because untold beauty can stem from an awakened soul."
+							]
+						}
+					]
+				}
+			],
+			"source":"EilistraeenOrders",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":3,
+			"header":2
+		},
+		{
+			"name":"Oath Spells",
+			"entries":[
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type":"table",
+					"caption":"Silverhair Knights Spells",
+					"colLabels":[
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles":[
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":[
+						[
+							"3rd",
+							"{@spell Sanctuary}, {@spell Zephyr Strike|xge}"
+						],
+						[
+							"5th",
+							"{@spell Warding bond}, {@spell Calm Emotions}"
+						],
+						[
+							"9th",
+							"{@spell Beacon of Hope}, {@spell Create Food and Water}"
+						],
+						[
+							"13th",
+							"{@spell Dimension Door}, {@spell Locate Creature}"
+						],
+						[
+							"17th",
+							"{@spell Commune}, {@spell Moon Path|eilistraeenorders}"
+						]
+					]
+				}
+			],
+			"source":"EilistraeenOrders",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":3,
+			"header":2
+		},
+		{
+			"name":"Channel Divinity: Eilistraee's Dance",
+			"entries":[
+				"You let the faith in your ideals and your goddess guide your steps. Following the Song, you become animated by burning determination. All chains and restraints are broken, and you effortlessly dance past any and all obstacles on your path.",
+				"As an action, until the end of your next turn, you gain the effect of the Freedom of Movement spell and the benefits of the Dodge action. Your melee weapon attacks deal additional radiant damage equal to your Charisma modifier, and once during this time, you may make a melee weapon attack as a bonus action. In addition to this, you gain advantage on all Charisma (Performance) checks for 1 minute."
+			],
+			"source":"EilistraeenOrders",
+			"page":10,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":3,
+			"header":1
+		},
+		{
+			"name":"Channel Divinity: Emissary of Peace",
+			"entries":[
+				"As a bonus action, you grant yourself a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes."
+			],
+			"source":"EilistraeenOrders",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":3,
+			"header":1
+		},
+		{
+			"name":"Sin Eaters",
+			"entries":[
+				"Powerful Silverhair Knights had the ability to \"consume sins\", to take the full weight of cruelty and suffering inflicted by evil beings'  (mostly fey, humanoids, monstrous humanoids, and giants, but especially drow) upon themselves, which gave the Silverhair Knights their nickname: sin eaters.",
+				"The Silverhair Knight must keep physical contact with the creature that they want to redeem for 10 minutes. If the creature is unwilling, they can fight the ritual in a battle of willpower, a Wisdom saving throw against the Silverhair Knight spell save DC.",
+				"If the Silverhair Knight is successful, the creature feels theweight of all the suffering that they have inflicted in their life; the shockof the realization is so powerful that the creature will hardly go back totheir evil ways. If the Silverhair Knight is not successful, the weight of allthat pain is inflicted on their own being, draining their vitality andmaking them fall into a coma for one day (it drains 1d4 points of constitution, which can be recovered through a Greater Restoration spell).",
+				"This ritual can be attempted once per week, and can only beperformed on the same creature once per year. If the paladin diesduring the ritual, they rise as a ghost with the same behavior as thecreature that they tried to redeem."
+			],
+			"source":"EilistraeenOrders",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":7,
+			"header":2
+		},
+		{
+			"name":"Aura of the Guardian",
+			"source":"EilistraeenOrders",
+			"page":11,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":7,
+			"header":2,
+			"entries":[
+				"Starting at 7th level, when a creature within 10 feet of you takes damage, you can use your reaction to magically take that damage, instead of that creature taking it. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name":"Dance of Freedom",
+			"source":"EilistraeenOrders",
+			"page":10,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":15,
+			"header":2,
+			"entries":[
+				"As the Lady's song fills your heart, her hand leads you unharmed through danger",
+				"Beginning at 15th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. If you do succeed at the saving throw and are not wearing heavy armor, you may choose to use your reaction to move up to half your speed. This movement does not provoke attacks of opportunity."
+			]
+		},
+		{
+			"name":"Lady's Embrace",
+			"source":"EilistraeenOrders",
+			"page":10,
+			"className":"Paladin",
+			"classSource":"PHB",
+			"subclassShortName":"Silverhair Knight",
+			"subclassSource":"EilistraeenOrders",
+			"level":20,
+			"header":2,
+			"entries":[
+				"Through your faith and dedication to the cause, you have become a conduit for the light of Eilistraee herself. A radiant aura of unearthly beauty surrounds you, and mesmerizing grace cloaks your every step and gesture. Your hair becomes long, dancing threads of silvery light, your irises softly shine like rainbow moonstones, and your voice becomes a sweet and soothing melody. Wings of moonlight sprout from your back, enveloping you and your friends in a protecting embrace, as your bodies and spirits are warmed by the vibrant love of the Dark Maiden.",
+				{
+					"type":"list",
+					"items":[
+						"At the beginning of each of your turns, you regain 10 hit points, and other creatures that you choose within the light regain 5 hit points, up to a number of creatures equal to your Charisma modifier.",
+						"If a creature within the light hits you with an attack, it takes radiant damage equal to your Charisma modifier",
+						"You gain Advantage on saving throws against fiends."
+					]
+				},
+				"Once you use this feature, you cannot use it anymore until you finish a long rest."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Moon Path",
+			"source": "EilistraeenOrders",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a white handkerchief"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"source": "PHB",
+							"name": "Paladin"
+						},
+						"subclass": {
+							"source": "EilistraeenOrders",
+							"name": "Silverhair Knight"
+						}
+					}
+				]
+			},
+			"entries": [
+				"You create a ribbon of glowing, silvery, translucent force, that connects two spots in a straight path. It's up to 150ft long, from 3 to 20 ft wide (you may change the width over the path's length), and 1/4 inch thick. Its starting and ending points can be located anywhere (including midair), and the surface of the ribbon can be oriented as the caster wishes (it can be positioned as a bridge or as a wall, for example). When you cast Moon Path, you choose up to 10 creatures to be protected while standing on the ribbon, granting them the effects of the Sanctuary and Spider Climb spells for the duration of the Moon Path (these boons are lost as soon as the path is left). The surface of the ribbon cannot be physically crossed, and blocks spells, breath attacks (like that of a dragon), gaze effects (such as that of a Medusa) and ethereal travel. ",
+				"A Disintegrate spell blasts a 10ft wide hole in the path, and the touch of a Sphere of Annihilation destroys it. Unlike a Wall of Force, this spell is normally affected by Dispel Magic."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 6th level slot or higher, its maximum length is increased by 30ft and the number of affected creatures by 2 for each level above 5th."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eilistraee's Moonfire",
+			"source": "EilistraeenOrders",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Silverhair Knight",
+							"source": "EilistraeenOrders"
+						}
+					}
+				]
+			},
+			"entries": [
+				"This spell creates a globe of moonlight of up to 10 cubic feet, that moves about the caster's body. It provides bright light in a 10 feet radius, and dim light for an additional 10 feet. The caster may choose to reduce the intensity, making the globe shed only dim light in 10 feet radius. The color of the globe and of the light can be white, silver, bluewhite and soft green. Each round, as a bonus action, the caster may command the Moonfire to move around her body at any desired speed, or to move away from her, drifting up to 40 feet. As a part of the action, the shape of the globe can be changed to make it pass through openings of any size.",
+				"As an action, you can turn the globe into a small comet of cold moonlight (ending the spell), and hurl it at a creature within 30 ft from you. Make an attack roll: on a success, the target takes 1d8 cold damage (2d8 at level 5th; 3d8 at 11th; 4d8 at 17th).",
+				"This cantrip can be cast using a 2nd level slot. If you so choose, this spell and the Darkness spell cancel each other out."
+			],
+			"damageInflict": [
 				"cold"
 			],
-            "spellAttack": [
+			"spellAttack": [
 				"R"
 			],
-            "scalingLevelDice": {
+			"scalingLevelDice": {
 				"label": "fire damage",
 				"scaling": {
 					"1": "1d8",
@@ -474,106 +478,180 @@
 					"17": "4d8"
 				}
 			}
-        },
-        {
-            "name": "Spellsong : Hope",
-            "source": "EilistraeenOrders",
-            "level": 4,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "bonus"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "self"
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "unit": "minute",
-                        "number": "1"
-                    },
-                    "concentration": true
-                }
-            ],
-            "classes": {
-                "fromSubClass": [
-                    {
-                        "class": {
-                            "name": "Paladin",
-                            "source": "PHB"
-                        },
-                        "subclass": {
-                            "name": "Silverhair Knight",
-                            "source": "EilistraeenOrders"
-                        }
-                    }
-                ]
-            },
-            "entries": [
-                "The Sword Dancers are trained to use their music and dance to call upon Eilistraee's power. They can sing their magic even in the heat of the battle, while dodging and dancing, or while wounded. Their art resonates with the intimate rhythm of life and of the Multiverse, and is able to close wounds, inspire great feats, create untold beauty, or save allies from the cold grip of death.",
-                "Your song inspires a number of creatures up to your Charisma modifer that can hear you, within 30 ft from you. You can choose one of the two following effects :",
-                {
-                    "type": "list",
-                    "items": [
-                        "They can add your Charisma modifier to all saving throws against the Charmed and Frightened conditions, to all attack rolls and ability checks. The spell lasts up to 1 minute, and requires concentration.",
-                        "It removes all effects causing the Charmed and Frightened conditions, and all effects that cause despair, confusion or insanity in a creature (such as the {@spell Confusion} and the {@spell Symbol}: Hopelessness, Insanity spells)."
-                    ]
-                }
-            ]
-        }
-    ],
-    "feat": [
-        {
-            "name": "Wardancer",
-            "source": "EO",
-            "page": 15,
-            "prerequisite": [
-                {
-                    "skill": "performance"
-                }
-            ],
-            "weaponProficiencies": [
-                {
-                    "longsword": true
-                }
-            ],
-            "entries": [
-                "Your training in dancing gracefully has improved your reflexes and the fluidity of your movements, making you harder to hit in combat. You must be proficient in the Performance skill in order to take this feat",
-                {
-                    "type": "list",
-                    "items": [
-                        "You gain proficiency with longswords, and treat them as finesse weapons.",
-                        "When you are hit by a weapon or spell attack, while wearing up to light armor and not using a shield, you can use your reaction to add your Charisma modifier to your AC against that attack, potentially causing it to miss."
-                    ]
-                }
-            ]
-        }
-    ],
-    "optionalfeature": [
-        {
-            "name": "Battle Dance",
-            "source": "EO",
-            "page": 15,
-            "featureType": [
-                "FS:F",
-                "FS:B",
-                "FS:P",
-                "FS:R"
-            ],
-            "entries": [
-                "When not wearing heavy armor and not using a shield, your armor class increases by 1. When wielding a single light, one-handed, or versatile weapon and no other weapons, you gain a +1 bonus to damage rolls with that weapon."
-            ]
-        }
-    ]
+		},
+		{
+			"name": "Spellsong",
+			"source": "EilistraeenOrders",
+			"level": 4,
+			"school": "E",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"time": [
+				{
+					"unit": "special"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Silverhair Knight",
+							"source": "EilistraeenOrders"
+						}
+					}
+				]
+			},
+			"entries": [
+				"The Sword Dancers are trained to use their music and dance to call upon Eilistraee's power. They can sing their magic even in the heat of the battle, while dodging and dancing, or while wounded. Their art resonates with the intimate rhythm of life and of the Multiverse, and is able to close wounds, inspire great feats, create untold beauty, or save allies from the cold grip of death.",
+				"You can cast this spell using a 4th level spell slot or higher. Depending on the level of the slot, your song and dance can produce a variety of magical effects. When you prepare this spell, choose one of the songs listed below. Upon casting the spell, it will only be able to produce the effects belonging to that song. The Spellsong can be prepared more than one time, each time choosing a different song.",
+				"The Spellsong ignores the need of material components. However, If the spell requires a material component worth 100gp or more and you don't have it, the casting time will be increased by an amount equal to the original casting time for each 100gp of value required.",
+				{
+					"type": "entries",
+					"name": "Song of Hope :",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Using a 4th level spell slot, as a bonus action, your song inspires a number of creatures up to your Charisma modifer that can hear you, within 30 ft from you. They can add your Charisma modifier to all saving throws against the {@condition charmed} and {@condition frightened} conditions, to all attack rolls and ability checks. The spell lasts up to 1 minute, and requires concentration.",
+								"Using a 4th level spell slot, your song lifts the hearts of a number of allies up to your Charisma modifier, that can hear you, within 30ft from you. It removes all effects causing the {@condition charmed} and {@condition frightened} conditions, and all effects that cause despair, confusion or insanity in a creature (such as the {@spell Confusion|phb} and the {@spell Symbol|phb}: Hopelessness, Insanity spells). Both the effects of this Spellsong count as Enchantment spells."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Song of Protection :",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"As a 4th level spell slot, you can cast the {@spell Sanctuary|phb} spell on a number of creatures up to your Charisma modifier and are within 30ft from you.",
+								"A 5th level spell slot will provide {@spell Death Ward|phb} to a creature that you are touching.",
+								"As a 8th level spell slot, you can cast the {@spell Death|phb} Ward spell on a number of creatures up to your Charisma modifer within 20ft from you."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Song of Life :",
+					"entries": 
+					[
+						"Your music soothes pain and closes wounds of all those who hear it. You conjure strands of soothing moonlight that take the form of tall elven women who embrace and heal your allies.",
+						{
+							
+							"type": "list",
+							"items": [
+								"Choose up to 6 creatures within 30ft from you. Spending a 4th level spell slot, the strands of light heal up to 3d6 + your Charisma modifier hit points. For each spell slot level above 4th, you add 1d6 to the amount healed. The healing die of the spell increases to 1d8 if you sing and dance for 10 minutes. Creatures who benefit from this spell are also immune to the {@hazard Extreme Cold} environmental condition for 1 hr. Wounds healed by this spellsong leave no scars. This is an Evocation effect.",
+								"As a 4th level slot, you can also cast the {@spell Revivify|phb} spell.",
+								"Using a 7th level spell slot, and singing for 1 minute, will cause this Spellsong to restore the body of a touched creature. Any severed body members (fingers, legs, tails, and so on), broken bones, and ruined organs are restored after 2 minutes. If the damaged or severed parts are present and touching the respective wound, the regeneration is instantaneous. For the duration of 1 hour, the target also regains 1 hit point at the beginning of each round. This Spellsong removes all existing scars if the caster and the creature so wish. It is as a Transmutation spell."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Song of Renewal :",
+					"entries": 
+					[
+						{
+							
+							"type": "list",
+							"items": [
+								"Using a 4th level spell slot, you can cast the {@spell Lesser Restoration|phb} spell on a creature within 30 ft from you, {@spell Remove Curse|phb}, or the {@spell Dispel Magic|phb} spell.",
+								"A 5th level spell slot provides the {@spell Aura of Purity|phb} spell.",
+								" A 6th level spell slot originates the {@spell Greater Restoration|phb} spell on any target that you are touching, or the {@spell Lesser Restoration|phb} spell on up to Charisma modifier creatures within 20 ft from you."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Song of Rapture :",
+					"entries": 
+					[
+						"You dance while playing and singing, creating art of unearthly beauty and deep emotion, while strands of moonlight weave and paint mesmerizing images around you.",
+						{
+							
+							"type": "list",
+							"items": [
+								"A number of creatures up to your Charisma modifier within 30ft from you (that can see or hear you) must take a Wisdom saving throw with disadvantage. On a failure, the creatures become charmed. While charmed by this spell, they are incapacitated, and will try to remain within 20 ft from you to admire your art. The effect lasts up to 1 minute, and requires you to spend your action each round after the first to keep performing. You may move up to your speed while sustaining this effect, but you may not take a dash action. You may force new creatures who enter the area (out of their own volition, or because you move within 20ft from them) to also take the saving throw, but the maximum number of affected creatures at any given time can't be higher than your Charisma modifier. The effect ends for an affected creature if it takes damage, if someone else uses their action to shake the creature out of its stupor, if you stop your performance, or if you use your reaction or bonus action to perform an offensive action. This Spellsong uses a 4th level slot, and is as an Enchantment spell.",
+								"As a 5th level slot or higher, you can cast the {@spell Charm Monster|xge} spell.",
+								"As a 7th spell slot, you can cast the {@spell Mass Suggestion|phb} spell. Your targets must be able to see or hear you"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Song of Creation :",
+					"entries": 
+					[
+						{
+							
+							"type": "list",
+							"items": [
+								"Using a 4th level spell slot or higher, you can cast the {@spell Major Image|phb} spell, as multiple strands of moonlight create artful illusions.",
+								"Using a 5th level spell slot or higher, you can cast the Fabricate spell, as your music and your dance fluidly shape the raw materials.",
+								"As a 6th level slot, {@spell Fabricate|phb} uses your Performance to create items that require high degree craftsmanship: your art shapes even the hardest material in harmony with your emotion and imagination (you are required to make a Performance check. The DC is the same that it takes to craft the item with the adequate tools).",
+								" A 7th level spell slot provides the {@spell Programmed Illusion|phb} spell."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Wardancer",
+			"source": "EO",
+			"page": 15,
+			"weaponProficiencies": [
+				{
+					"longsword|phb": true
+				}
+			],
+			"entries": [
+				"Your training in dancing gracefully has improved your reflexes and the fluidity of your movements, making you harder to hit in combat. You must be proficient in the Performance skill in order to take this feat",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with longswords, and treat them as finesse weapons.",
+						"When you are hit by a weapon or spell attack, while wearing up to light armor and not using a shield, you can use your reaction to add your Charisma modifier to your AC against that attack, potentially causing it to miss."
+					]
+				}
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Battle Dance",
+			"source": "EO",
+			"page": 15,
+			"featureType": [
+				"FS:F",
+				"FS:B",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"When not wearing heavy armor and not using a shield, your armor class increases by 1. When wielding a single light, one-handed, or versatile weapon and no other weapons, you gain a +1 bonus to damage rolls with that weapon."
+			]
+		}
+	]
 }
