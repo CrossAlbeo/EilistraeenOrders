@@ -1682,5 +1682,293 @@
 				"When not wearing heavy armor and not using a shield, your armor class increases by 1. When wielding a single light, one-handed, or versatile weapon and no other weapons, you gain a +1 bonus to damage rolls with that weapon."
 			]
 		}
+	],
+	"background": [
+		{
+			"name": "Secret Moondancer",
+			"source": "EO",
+			"page": 16,
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Insight}, plus your choice of one from among {@skill athletics}, {@skill persuasion}, {@skill deception}, {@skill acrobatics} and {@skill survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} or {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A a {@filter musical instrument|items|source=phb|miscellaneous=mundane|type=instrument} (one of your choice) (one of your choice) or a set of {@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan's tools} (one of your choice), a {@item holy symbol|phb} (symbol of Eilistraee), a set of {@item common clothes|phb}, a sword-token and a belt {@item pouch|phb} containing 10 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Safe haven",
+					"type": "entries",
+					"entries": [
+						"As a Secret Moondancer, you can expect fellow followers and Sword Dancers of Eilistraee to help you in your adventures. You can receive free healing, food and shelter at shrines of the Dark Maiden (you must provide the material components needed for the spells). Your companions may also be sheltered, but at the price of a small task assigned by the priestesses (it is usually labor, but can be another kind of service, if the DM wishes so). Sword Dancers will come to your help if you are near a shrine and call for support, but they will also try to preserve their own life. You have access to the knowledge of secret passages or portals that connect the area of the Underdark that you come from with shrines of Eilistraee. You may access to them through a tiny sword pin or pendant used as an identification token. Sword Dancers active near a given area will instruct you about secret passages or portals that can be found there, and will provide you with any information in their possess that is useful for the Dark Maiden's cause. You are allowed to use the Moonspring portals (see the main document)."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Below is a list of traits, bonds and flaws that Secret Moondancers are likely to have, and of ideals that many of them follow. Of course, they can also be replaced with characteristics of your own making.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I always try to accept the others simply for what they are, and to respect their choices (as long as they are not intended to bring harm)."
+								],
+								[
+									"2",
+									"I make treasure of all the bright moments that life brings me, and always try to bring a smile to people's faces, be they my friends or strangers."
+								],
+								[
+									"3",
+									"My experience taught me to always help and care for those around me. No matter how dire the situation may be, no one that is counting on me will be left behind."
+								],
+								[
+									"4",
+									"No matter how grim the situation may seem, I don't give up and nothing can shake my optimism."
+								],
+								[
+									"5",
+									"I firmly believe that my actions are guided by the will of Eilistraee, and that even the most unlikely event can be a message from her."
+								],
+								[
+									"6",
+									"I am ever watchful of my surroundings, and I never do anything without a plan. I always prepare a back-plan for when things go wrong."
+								],
+								[
+									"7",
+									"I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
+								],
+								[
+									"8",
+									"The time spent in the Underdark has filled me with a burning desire to see the world and make new experiences."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Freedom: Everyone should be free to choose what to be, their faith, to express themselves and forge their own path in life. I will firmly oppose anyone who seeks to deny this right. (Chaotic)"
+								],
+								[
+									"2",
+									"Hope: Even in the deepest despair, when all seems lost, one can still find hope in all that is beautiful in life. We must fight to protect that light, and bring it those who are lost in the dark. (Good)"
+								],
+								[
+									"3",
+									"Kindness: We must try to help those in need, be it by offering food, shelter or protection, no matter what the personal cost. (Good)"
+								],
+								[
+									"4",
+									"Compassion: There is strength in showing mercy and compassion, rather than ending a life. Even the darkest souls can find the strength to embrace redemption. (Good)"
+								],
+								[
+									"5",
+									"Beauty and Joy: Life is meant to be celebrated and enjoyed. Song, dance and beauty are to be spread and nurtured, bringing joy and laughter to people, so that no moment is lost in the greyness of bore and melancholy. (Good)"
+								],
+								[
+									"6",
+									"Tolerance: We must strive so that all races may live in harmony and peace, united against evil and suffering, and that all people may be accepted for what they are. (Good)"
+								],
+								[
+									"7",
+									"Change: We must work so that the old, bloody traditions are lost and forgotten. Only then the drow may build their place in the world, and Dark Maiden's dream come true. (Chaotic)"
+								],
+								[
+									"8",
+									"Faith: I trust that Eilistraee will guide my actions. If I work hard, things will go well. (Lawful)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My family (or children, or loved ones) is the most precious thing to me."
+								],
+								[
+									"2",
+									"My family or loved ones had to remain behind when I fled my city, but I will return to lead them to a better place."
+								],
+								[
+									"3",
+									"I owe everything to a priestess that helped me when I needed it the most."
+								],
+								[
+									"4",
+									"A deep bond has formed between me and one (or a group) of my converts. (Sword Dancers only)"
+								],
+								[
+									"5",
+									"Eilistraee has sung to me, giving me hope in my darkest time. I find strength in her love, and solace in knowing that she watches over all her people"
+								],
+								[
+									"6",
+									"Someone I love was killed (or enslaved) by a priestess of Lolth (or a noble drow). I will do anything it takes to avenge (or rescue) them."
+								],
+								[
+									"7",
+									"Everything I do is for the good of my people"
+								],
+								[
+									"8",
+									"The faith of Lolth can only bring the drow to wither and selfdestroy. I am sworn to eradicate the influence of the Spider Queen wherever it rears its ugly head."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I can't help but be suspicious of everyone's actions. I am very slow to trust others."
+								],
+								[
+									"2",
+									"Whenever doing something major, I worry too much about what could go wrong."
+								],
+								[
+									"3",
+									"I work to follow the teachings of my goddess, but old habits and mindset are hard to shake off."
+								],
+								[
+									"4",
+									"All that I have experienced has made me weary. Although I try to help those who are suffering, I often react coldly to their pain."
+								],
+								[
+									"5",
+									"I can act recklessly when I think that I and my friends are danger."
+								],
+								[
+									"6",
+									"I react aggressively to offense or threats, especially to those directed at my faith."
+								],
+								[
+									"7",
+									"During my former life I was responsible of atrocious actions. I try to hide that from all whom I know."
+								],
+								[
+									"8",
+									"I can hardly resist the temptation to join revelries and pleasurable events when the opportunity arises."
+								]
+							]
+						}
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"insight": true,
+					"choose": {
+						"from": [
+							"athletics",
+							"persuasion",
+							"deception",
+							"acrobatics",
+							"survival"
+						]
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"artisan's tools",
+							"musical instrument"
+						]
+					}
+					
+				}
+			],
+			"languageProficiencies": [
+				{
+					"undercommon": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "holy symbol|phb",
+							"displayName": "symbol of Eilistraee"
+						},
+						{
+							"special": "sword-token"
+						},
+						"common clothes|phb",
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				},
+				{
+					"a": [
+						{
+							"equipmentType": "instrumentMusical"
+						}
+					],
+					"b": [
+						{
+							"equipmentType": "toolArtisan"
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		}
 	]
 }
