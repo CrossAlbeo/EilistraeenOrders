@@ -150,6 +150,63 @@
 					}
 				}
 			]
+		},
+		{
+			"name":"Sword Dancer",
+			"subclassFeatures":[
+				"Dark Maiden's Grace|Cleric||Sword Dancer|EilistraeenOrders|1",
+				"Channel Divinity: Eilistraee's Dance|Cleric||Sword Dancer|EilistraeenOrders|2",
+				"Song of Courage|Cleric||Sword Dancer|EilistraeenOrders|6",
+				"Divine Strike|Cleric||Sword Dancer|EilistraeenOrders|8",
+				"Smile of the Dark Lady|Cleric||Sword Dancer|EilistraeenOrders|17"
+			],
+			"source":"EilistraeenOrders",
+			"shortName":"Sword Dancer",
+			"className":"Cleric",
+			"classSource":"PHB",
+			"subclassSpells":[
+				"Charm Person",
+				"Magic Missile",
+				"Moonbeam",
+				"Suggestion",
+				"Beacon of hope",
+				"create food and water",
+				"Freedom of movement",
+				"Spellsong|EilistraeenOrders",
+				"commune",
+				"moon path|eilistraeenorders"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"Eilistraee's Moonfire|EilistraeenOrders"
+						]
+					},
+					"prepared":{
+						"1":[
+							"Charm Person",
+							"Magic Missile"
+						],
+						"3":[
+							"Moonbeam",
+							"Suggestion"
+						],
+						"5":[
+							"beacon of hope",
+							"create food and water"
+						],
+						"7":[
+							"Freedom of movement",
+							"Spellsong|EilistraeenOrders"
+						],
+						"9":[
+							"commune",
+							"moon path|eilistraeenorders"
+						]
+					}
+				}
+			]
 		}
 	],
 	"subclassFeature":[
@@ -944,6 +1001,318 @@
 					]
 				},
 				"Alternatively, when you cast a bardic spell with beneficial effects, as part of the same action, you can expend any number of uses of your bardic inspiration to empower your allies. Upon the next attack (spell or weapon) made by a number of creatures affected by the spell equal to the spent inspiration uses, blades of pressurized air slash your enemy. If the attack hits, it deal its normal damage, and the target must succeed a Dexterity saving throw against your spell DC or take 2d8 thunder damage for a first level slot, plus 1d8 per spell slot level above first (up to a maximum of 5d8)."
+			]
+		},
+		{
+			"name": "Dark Maiden's Grace",
+			"source": "EilistraeenOrders",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"{@i 1st-level Sword Dancer feature}",
+				"At 1st Cleric level :",
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"name":"Skills :",
+							"entries":
+							[
+								"When choosing your starting skills, pick two from the following modified list: Acrobatics, Insight, Medicine, Persuasion, Religion and Survival. You also gain proficiency and expertise in the Performance skill (add double proficiency modifier to rolls)."
+							]
+						},
+						{
+							"type":"entries",
+							"name":"Spellcasting Ability :",
+							"entries":
+							[
+								"You may choose to use Charisma as your spellcasting ability (instead of Wisdom)."
+							]
+						},
+						{
+							"type":"entries",
+							"name":"Saving Throws :",
+							"entries":
+							[
+								"You may choose to gain proficiency in Dexterity saving throws (instead of Wisdom)."
+							]
+						},
+						{
+							"type":"entries",
+							"name":"Spellcasting Focus :",
+							"entries":
+							[
+								"Aside from your holy symbol of Eilistraee, you can also use your art as a spell focus. A melody played with a musical instrument of your choice, or your own voice, as you intone a song, count both as spell focus and as the verbal component of your spells. Likewise, your dance counts both as a spell focus and as somatic component of your spells."
+							]
+						},
+						{
+							"type":"entries",
+							"name":"Starting Equipment :",
+							"entries":
+							[
+								"Your starting equipment includes a musical instrument of your choice. It doesn't include a shield, and your staring weapon can be (a) a longsword, or (b) a greatsword."
+							]
+						},
+						{
+							"type":"entries",
+							"name":"Wardancer :",
+							"entries":
+							[
+								"When you are hit by a weapon or spell attack, while wearing up to light armor and not using a shield, you can use your reaction to add your Charisma modifier to your AC against that attack, potentially causing it to miss."
+							]
+						},
+						{
+							"type":"entries",
+							"name":"Weapons and Tools :",
+							"entries":
+							[
+								"You gain proficiency with a musical instrument of your choice and with longswords and greatswords. You can treat longswords as finesse weapons. However, you no longer gain proficiency with shields."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Eilistraee's Moonfire",
+			"source": "EilistraeenOrders",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"{@i 1st-level Sword Dancer feature}",
+				"The Sword Dancers can conjure the Dark Maiden's moonfire, a globe of moonlight, that can be used as a source of light for reading or to see in the dark, but also for communication and for artistic purposes.",
+				"At 1st level, you learn the {@spell Eilistraee's Moonfire|eilistraeenorders} cantrip."
+			]
+		},
+		{
+			"name": "Channel Divinity: Eilistraee's Dance",
+			"source": "EilistraeenOrders",
+			"page": 6,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"{@i 2nd-level Sword Dancer feature}",
+				"In battle against evil, the song of Eilistraee fills your heart. Its rhythm guides your steps in an agile and artistic swordplay, so graceful to resemble a dance.",
+				"Starting at 2nd cleric level, you lose proficiency with medium armor.",
+				"While wielding a sword (this includes scimitars and rapiers), no shield, and wearing up to light armor, as a bonus action you can use your Channel Divinity to perform an elegant battle-dance. The Dance lasts up to a number of rounds equal to your Charisma modifier. As a free action, you may choose to expend a spell slot and increase the duration by a number of rounds equal to the spell slot level. The dance is interrupted if you are incapacitated, don medium or heavy armor, or use a shield. You may stop the dance before its conclusion as a bonus action, if you so wish. When you use this feature:",
+				{
+					"type":"entries",
+					"entries":[
+						{
+							"type":"entries",
+							"entries":
+							[
+								"You gain proficiency in Acrobatics, and advantage on all Dexterity (Acrobatics) checks, if already proficient."
+							]
+						},
+						{
+							"type":"entries",
+							"entries": [
+								"When you start the dance, you must take a Charisma (Performance) check, and gain a bonus to your AC and Charisma saving throws, determined by the result of your check, according to the table below (on a 1, no bonus is gained)."
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Dance's bonus",
+							"colLabels": [
+								"Performance Check",
+								"AC Bonus",
+								"CHA saving throw",
+								"To hit (level 6+)",
+								"DEX saving throw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-1 text-center",
+								"col-1 text-center",
+								"col-1 text-center",
+								"col-1 text-center"
+							],
+							"rows": [
+								[
+									"13-15",
+									"1",
+									"1",
+									"1",
+									"1"
+								],
+								[
+									"16-18",
+									"2",
+									"1",
+									"1",
+									"1"
+								],
+								[
+									"19-21",
+									"3",
+									"2",
+									"2",
+									"2"
+								],
+								[
+									"22-24",
+									"4",
+									"2",
+									"2",
+									"2"
+								],
+								[
+									"25 or more",
+									"5",
+									"3",
+									"3",
+									"3"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eilistraee's Dance : passion|Cleric||Sword Dancer|EilistraeenOrders|6"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eilistraee's Dance : nimble|Cleric||Sword Dancer|EilistraeenOrders|8"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eilistraee's Dance : fleeting|Cleric||Sword Dancer|EilistraeenOrders|14"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eilistraee's Dance : moon light|Cleric||Sword Dancer|EilistraeenOrders|17"
+				}
+			]
+		},
+		{
+			"name": "Song of Courage",
+			"source": "EilistraeenOrders",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Sword Dancer feature}",
+				"Eilistraee's voice is known to stir the hearts of her people even in the darkest situations, when all hope seems lost. Similarly, your song echoes that of your goddess, and fills the spirit of your allies with warmth and determination.",
+				"Starting at 6th level, whenever you (or an ally within 30ft from you who can hear you) make a skill check (Performance, Acrobatics, Athletics, Persuasion) or a saving throw against the Charmed or Frightened conditions, you may take your reaction to invoke Eilistraee's song. You, or the chosen ally, can add your Charisma modifier to the roll. You can use this feature after the roll has been made, but before knowing whether it was successful or not. This feature can be used up to 2 times. You regain all expended uses upon completing a long rest."
+			]
+		},
+		{
+			"name": "Eilistraee's Dance : passion",
+			"source": "EilistraeenOrders",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"The passion of the performance is so vivid and burning that your dance becomes an instinctive act: there's only you and the song of the Goddess. While the grace of your steps leads you away from danger, and while the elgance of your style drives your blade past the enemy's defenses, a single misstep can become fatal.",
+				"Starting at 6th level, Eilistraee's Dance now grants you a bonus to all attack rolls made during its duration. This bonus also depends on your performance roll, according to the table. However, whenever you take weapon damage during the dance, you take additional damage equal to the base weapon dice."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "EilistraeenOrders",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level Sword Dancer feature}",
+				"The Sword Dancers are know to call down the Dark Maiden's blessing on their blades, to preserve their edge and integrity, but also to infuse them with divine magic. Some of these priestesses and priests can make their blades ''sing'' a devastating song, or light up in silvery moonlight, as they strike down those who would see the world drown in darkness.",
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant (or thunder, you choose) damage to the target. When you reach 14th level, the extra damage increases to 2d8.",
+				"Your movement increases by 15ft for the duration of the dance. Every time an attack misses you, or you successfully pass a DEX saving throw, you may choose to elegantly move 5ft in any direction without triggering opportunity attacks. This effect can occur again within the same round up to a number of times equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Eilistraee's Dance : nimble",
+			"source": "EilistraeenOrders",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"The intensity of your dance is such that you step with ethereal grace amidst the fury of the battlefield, untouched by arcane fire, coruscating storms, and unrelenting blizzards alike.",
+				"Starting at 8th level, Eilistraee's Dance now grants you a bonus to all attack rolls made during its duration. This bonus also depends on your performance roll, according to the table. However, whenever you take weapon damage during the dance, you take additional damage equal to the base weapon dice."
+			]
+		},
+		{
+			"name": "Eilistraee's Dance : fleeting",
+			"source": "EilistraeenOrders",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your dance becomes a seamless blend of artistical movements. The fluidity and spontaneity of your steps mesmerize your foes, as you move like evanescent, liquid moonlight through the heart of battle.",
+				"At 14th level, Eilistraee's Dance now provides a bonus to all DEX saving throws made during its duration. This bonus depends on your performance roll, according to the table.",
+				"You may choose to lose proficiency with light armor. If you do, during the first round of Eilistraee's Dance, you never trigger opportunity attacks. Afterward, you may take the disengage or the dash actions as a bonus action. If choose to do that a number of times greater than your Dexterity modifier before completing a long rest, each time you take a further dash/disengage bonus action, you must take a constitution saving throw with DC= 8 + your proficiency bonus + your Charisma modifier, or gain a level of exhaustion."
+			]
+		},
+		{
+			"name": "Smile of the Dark Lady",
+			"source": "EilistraeenOrders",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Sword Dancer feature}",
+				"As you sing and dance, the light and beauty of Eilistraee radiate through you. Your art touches the deepest chords in the hearts of those who witness it, as they b,ecome completely raptured or moved by it.",
+				"Starting at 17th level, as an action, you can invoke Eilistraee to mesmerize your foes and protect your allies. Take a Performance check, and choose a number of creatures up to your Charisma modifier that are within 30 ft from you and that can hear or see you. The creatures must take a Wisdom saving throw with DC equal to the result of the Performance check, or become touched by your art and become unable to perform hostile actions. This condition lasts up to 1 minute, or until the creature takes damage. The creatures can take a new wisdom saving throw every round after the first one (the new DC is your standard spell DC = 8 + your proficiency bonus + Charisma modifier), ending the condition on a success. Creatures that are immune to being charmed are also immune to this feature.",
+				"You can use this feature once. You regain the expended use upon completing a short or long rest."
+			]
+		},
+		{
+			"name": "Eilistraee's Dance : moon light",
+			"source": "EilistraeenOrders",
+			"page": 5,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Sword Dancer",
+			"subclassSource": "EilistraeenOrders",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You become skilled in the use of the dancing sword. You can bless any blade you touch with a life on its own, albeit only for short periods of time.",
+				"At 17th level, if you wield a Dancing Sword, you can benefit from the bonuses provided by Eilistraee's Dance while the weapon is hovering.",
+				"Furthermore, as a bonus action (or a free action in the first round of Eilistraee's Dance), you can animate a sword (magical or not) that you are touching, for the remaining duration of your dance. The weapon gains the Dancing property: it will move up to 30 feet (but never farther than 30 feet from you) and attack a creature within 5 feet, using your attack bonus and adding your normal ability score modifier, plus you Charisma modifier to damage rolls. In the following rounds, you can use a bonus action to command the sword to move up to 30 feet and attack once. The weapon will fall to the ground if you move farther than 30 feet from it, and will try to return to you when this effect ends.",
+				"While the dancing sword is hovering, if it is within 5 feet from you and you are targeted by an attack (melee or ranged), you can use a reaction to command the weapon to parry, imposing disadvantage on the enemy's roll.",
+				"You may choose to shed your clothes, as you dance skyclad like the Dark Maiden herself. If you so choose, while you dance and your dancing sword is hovering within 5 feet from you, you gain resistence to one type of damage of your choice."
 			]
 		}
 	],
