@@ -4,7 +4,7 @@
 		"sources":[
 			{
 				"json":"EilistraeenOrders",
-				"abbreviation":"EO",
+				"abbreviation":"EilistraeenOrders",
 				"full":"Eilistraeen Orders",
 				"authors":[
 					"Tommaso Sammarco"
@@ -1648,7 +1648,7 @@
 	"feat": [
 		{
 			"name": "Wardancer",
-			"source": "EO",
+			"source": "EilistraeenOrders",
 			"page": 15,
 			"weaponProficiencies": [
 				{
@@ -1670,7 +1670,7 @@
 	"optionalfeature": [
 		{
 			"name": "Battle Dance",
-			"source": "EO",
+			"source": "EilistraeenOrders",
 			"page": 15,
 			"featureType": [
 				"FS:F",
@@ -1686,7 +1686,7 @@
 	"background": [
 		{
 			"name": "Secret Moondancer",
-			"source": "EO",
+			"source": "EilistraeenOrders",
 			"page": 16,
 			"entries": [
 				{
